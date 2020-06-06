@@ -203,16 +203,14 @@
           ],
         },
         options: {
-          scales: {
-            yAxes: [
-              {
-                ticks: {
-                  beginAtZero: true,
-                },
-              },
-            ],
-          },
+        animation: {
+            duration: 3000, // general animation time
         },
+        hover: {
+            animationDuration: 300, // duration of animations when hovering an item
+        },
+        responsiveAnimationDuration: 3000, // animation duration after a resize
+    },
       });
     </script>
 
