@@ -4,10 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-166050406-1"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166050406-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -20,14 +17,7 @@
 
     <!-- Title of your page: add the name of your IIIT-->
     <title>IIIT Kurool Placements</title>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"
-    ></script>
-    <meta
-      content="This is IIIT Placement page of the community IIITians Network"
-      name="descriptison"
-    />
+    <meta content="This is IIIT Placement page of the community IIITians Network" name="descriptison"/>
     <!--You have to update the name of your IIIT in both these lines -->
     <meta content="IIITians Network - Placement" name="keywords" />
 
@@ -36,45 +26,24 @@
     <link href="img/logo/iiitian.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Roboto&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
 
     <!-- Animation for text -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Anton"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton"/>
     <link rel="stylesheet" href="./style.css" />
 
     <!-- Font awesome icons-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -84,12 +53,11 @@
     <link href="custom.css" rel="stylesheet" />
 
     <!-- Carousel files -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"
+    ></script>
 
     <!--================================== STUDENT's LIFE CSS FILES =======================================================-->
     <link rel="stylesheet" type="text/css" href="assets/css/studentsLife.css" />
@@ -98,11 +66,7 @@
     <!--==================================Counter Up files ====================-->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <script
-      src="https://code.jquery.com/jquery-1.12.4.min.js"
-      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous" ></script>
 
     <!--==================================Counter Up files over ==============-->
     <!--================= Loader Part start ===============-->
@@ -169,52 +133,91 @@
     </header>
     <!-- End Header -->
 
-    <br /><br /><br /><br />
-    <canvas id="myChart" width="500" height="185%"></canvas>
-    <script>
-      var ctx = document.getElementById("myChart").getContext("2d");
-      var myChart = new Chart(ctx, {
-        type: "bar",
-        data: {
-          labels: [
-            "% placed",
-            "Tot. Student Registered",
-            "Tot. Jobs Offered",
-            "Tot. Students Selected",
-            "Avg.Pkg(LPA)",
-            "Hig.Pkg(LPA)",
-          ],
-          datasets: [
-            {
-              label: "IIIT Kurool Placement Details 2018-19",
-              data: [67.2, 67, 45, 45, 4.77, 10.5],
-              backgroundColor: [
-                "rgba(255, 99, 132, 0.8)",
-                "rgba(54, 162, 235, 0.8)",
-                "rgba(255, 206, 86, 0.8)",
-                "rgba(75, 192, 192, 0.8)",
-                "rgba(153, 102, 255, 0.8)",
-                "rgba(255, 159, 64, 0.8)",
-                "rgba(142,45,64,0.8)",
-              ],
-              borderColor: "rgb(255,255,255)",
-              borderWidth: 1,
-            },
-          ],
-        },
-        options: {
-        animation: {
-            duration: 3000, // general animation time
-        },
-        hover: {
-            animationDuration: 300, // duration of animations when hovering an item
-        },
-        responsiveAnimationDuration: 3000, // animation duration after a resize
-    },
-      });
-    </script>
+    <main id="main">
+		
+		<div class="container">
+			<div class="row">
+				
+			    <div class="col-lg-12 text-center">
+					<img src="img/iiit_logo/guwahati.png" height="150px" width="150px" data-aos="fade-up" data-aos-delay="100">
+				</div>
+				
+				<div class="col-lg-12 text-center">			
+					<h1 data-aos="fade-up" data-aos-delay="100">Indian Institute of Information Technology Guwahati<br><br></h1>
+				</div>
+				
+				<div class="col-lg-12 text-left">
+					<h2 data-aos="fade-up" data-aos-delay="100">Our Past Figures</h2>
+				</div>
+				
+				<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+						    <canvas id="myChart" width="100%" height="100%"></canvas>
+								<script>
+									var ctx = document.getElementById("myChart").getContext("2d");
+										var myChart = new Chart(ctx, {
+										type: "bar",
+										data: {
+										labels: [
+											"% placed",
+											"Tot. Student Registered",
+											"Tot. Jobs Offered",
+											"Tot. Students Selected",
+											"Avg.Pkg(LPA)",
+											"Hig.Pkg(LPA)",
+											],
+											datasets: [
+											{
+											label: "IIIT Kurool Placement Details 2018-19",
+											data: [67.2, 67, 45, 45, 4.77, 10.5],
+											backgroundColor: [
+											"rgba(255, 99, 132, 0.8)",
+											"rgba(54, 162, 235, 0.8)",
+											"rgba(255, 206, 86, 0.8)",
+											"rgba(75, 192, 192, 0.8)",
+											"rgba(153, 102, 255, 0.8)",
+											"rgba(255, 159, 64, 0.8)",
+											"rgba(142,45,64,0.8)",
+											],
+											borderColor: "rgb(255,255,255)",
+											borderWidth: 1,
+											},
+											],
+										},
+									options: {
+										animation: {
+											duration: 3000, // general animation time
+											},
+											hover: {
+										animationDuration: 300, // duration of animations when hovering an item
+											},
+											responsiveAnimationDuration: 3000, // animation duration after a resize
+											},
+										});
+								</script>
+		     	</div>
+		     	
+     			<div class="col-lg-6">	
+						<h3 class="text-left" data-aos="fade-up" data-aos-delay="100">Placement status of our batches<br></h3>
+						<p data-aos="fade-up" data-aos-delay="100" style="padding-left:10px; padding-right:10px">
+							IIIT Guwahati had a successful placement session during 2018-19. 
+							Some of the companies where our students got placed are: 
+							<b>Instahyre, Kuvera, Kirusa Tech, TCS, AlgomaMills, Cohesity, Wipro,
+							TechJect, IBM, Adapt Ideation, Nayan, Distill, Datakalp, StatWig, Antares,
+							EdgeTensor, Infotrust, Cerelabs, HumbleSchool, Vassar, Nagarro, ThoughtWorks,
+							Guavus, Aptude,</b> etc. The selection processes for some companies are
+							still going on. The universities where students have been selected 
+							for higher studies are University of New York, and National University
+							of Science, Singapore.
 
-    <br /><br /><br /><br />
+							The students got offers from both on-campus and off-campus selection processes.<br>
+							The statistics so far are:
+						</p>
+				  </div>
+			</div>  <!-- Row closed -->
+		</div> 		<!-- Container closed -->
+	 </section>			 
+	</main>	
+
     <!-- ======= Footer ======= -->
 
     <!-- No need to change anything in footer area -->
@@ -400,5 +403,8 @@
 
     <!-- Custom JS files -->
     <script src="assets/js/custom.js"></script>
+    
+    <!-- Chart js files -->
+    
   </body>
 </html>
